@@ -4,7 +4,7 @@
 
 由于本人所用的jetson AGX Orin开发板jetpack5只支持python3.8版本的pytorch，原代码python中某些python3.10新特性不支持，故作此修改。
 
-此外，将默认配置文件改为/config/official/infertardal-ct.yaml；解决输出与输出图片数量不符问题(见infer_f.py)。
+此外，将默认配置文件改为/config/official/infertardal-ct.yaml；解决输出与输入图片数量不符问题(见infer_f.py)。
 ## 开发环境
 python 3.8
 
