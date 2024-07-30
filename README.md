@@ -1,4 +1,23 @@
 # TarDAL 
+## 写在前面
+原仓库地址：https://github.com/JinyuanLiu-CV/TarDAL
+
+由于本人所用的jetson AGX Orin开发板jetpack5只支持python3.8版本的pytorch，原代码python中某些python3.10新特性不支持，故作此修改。
+
+此外，将默认配置文件改为/config/official/infertardal-ct.yaml；解决输出与输出图片数量不符问题(见infer_f.py)。
+## 开发环境
+python 3.8
+
+pytorch 2 .1.0a0+41361538.nv23.06
+
+torchvision 0.16.0+fbb4cc5
+
+jetpack 5.1.2
+
+Architecture: arm64
+
+CUDA 11.4
+# 原仓库说明
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JinyuanLiu-CV/TarDAL/blob/main/tutorial.ipynb)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=JinyuanLiu-CV.TarDAL)
